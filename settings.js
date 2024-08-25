@@ -11,7 +11,7 @@ const FOOTERNAME = '> Sanidu-X V4';
 global.owner = process.env.OWNER_NUMBER  || '94764796750' ;  // ADD YOUR NUMBER WITHOUT +
     
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=bIM1zBKa#_bMvgOepq-Iogs7vn_ljF05o5nscDJaWKX9DulD0FdM' ,
+SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=KJsniBLA#3CZWd3CCrFDFkIU44o_fcTr0La3SyoDCo9qUQ8KpIfE' ,
 travaSend: process.env.TRAVA_SEND || '25' ,   
 MODERATORS : process.env.MODERATORS === undefined ? "94772801923,94787820101" : process.env.MODERATORS ,    
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '2536': process.env.MAX_SIZE,/*add this in megabytes*/    
