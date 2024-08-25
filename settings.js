@@ -6,20 +6,20 @@ function convertToBool(text, fault = 'true') {
 
 
 global.thumb = fs.readFileSync('./lib/bugs/venom.jpg')
-const BOTNAME = 'VAJIRA-MD|-WA-BOT™';
-const FOOTERNAME = '> ＶＡＪＩＲＡ -  ＭＤ - Ｖ4';
-global.owner = process.env.OWNER_NUMBER  || '94701992015' ;  // ADD YOUR NUMBER WITHOUT +
+const BOTNAME = 'Sanidu-X';
+const FOOTERNAME = '> Sanidu-X V4';
+global.owner = process.env.OWNER_NUMBER  || '94764796750' ;  // ADD YOUR NUMBER WITHOUT +
     
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || ' ' ,
+SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=bIM1zBKa#_bMvgOepq-Iogs7vn_ljF05o5nscDJaWKX9DulD0FdM' ,
 travaSend: process.env.TRAVA_SEND || '25' ,   
 MODERATORS : process.env.MODERATORS === undefined ? "94772801923,94787820101" : process.env.MODERATORS ,    
-MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE,/*add this in megabytes*/    
-OWNER_NAME: process.env.OWNER_NAME || 'VAJIRA' ,
+MAX_SIZE: process.env.MAX_SIZE === undefined ? '2536': process.env.MAX_SIZE,/*add this in megabytes*/    
+OWNER_NAME: process.env.OWNER_NAME || 'SANIDU' ,
 COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,
-LOGO: process.env.LOGO || `https://telegra.ph/file/ab0ea6ad90e2eb98090d9.jpg` ,
+LOGO: process.env.LOGO || `https://i.postimg.cc/h4dbV0C2/Screenshot-2024-08-18-152855.png` ,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.POSTGRESQL_URL,
-FOOTER: process.env.FOOTER || '‌👨‍💻 ＶＡＪＩＲＡ -  ＭＤ - Ｖ5 👨‍💻',    
+FOOTER: process.env.FOOTER || '‌👨‍💻 S A N I D U - V 4 👨‍💻',    
 PREFIX: process.env.PREFIX || '.' ,
 LANG:  process.env.LANG || 'SI' ,
 ANTI_BAD: process.env.ANTI_BAD || false  ,
